@@ -1,58 +1,111 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Portifólio Flávio Pires</title>
-    </head>
-    <body>
-        <h1>Flávio Anselmo dos Santos Pires</h1>
 
-        <ul>
-          <li><a href="#habilidades-possuo">Habilidades que possuo</a></li>
-          <li><a href="#habilidades-orgulho">Habilidades que me orgulho</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8">
+  <title>Portifólio Flávio Pires</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      background-color: #caf0f8;
+      font-size: 16px;
+      color: #023e8a;
+    }
 
-        <img id="foto-flavio" src="images/flavio-pires.jpg" alt="Foto de identificação do portifólio do Flávio Pires" width="500px">
-        <p>
-            Olá, sou o <strong>Flávio Pires</strong>, tenho 44 anos, casado com a Roberta Melo, pai de quatro filhas.
-            <br>Sou brasileiro, moro na cidade de Vespasiano em Minas Gerais. Hoje sou estudante de<br>
-            desenvolvimento web na <a href="https://betrybe.com" target="_blank"><em>Trybe</em></a>.
-        </p>
-        
-        <h2 id="habilidades-possuo">Habilidades que possuo:</h2>
-        
-        <ul>
-          <li>Unix</li>
-          <li>Bash</li>
-          <li>ZSH</li>
-          <li>Git e Github</li>
-          <li>Internet</li>
-          <li>HTML</li>
-          <li><strong>Corel Draw</strong></li>
-          <li><strong>Photoshop</strong></li>
-          <li>Indesign</li>
-          <li>Fazer palestras</li>
-          <li>Tocar violão</li>
+    h1 {
+      font-family: Montserrat;
+      color: #03045e;
+    }
 
-        </ul>
+    h2 {
+      font-family: Roboto;
+      color: #0077b6;
+    }
 
-        <h2 id="habilidades-orgulho">Habilidades que mais tenho orgulho:</h2>
+    p {
+      font-family: Roboto;
+      font-weight: 300;
+    }
 
-        <ul>
-          <li><em>Relacionamento interpessoal</em></li>
-          <li><em>Facilidade em aprender qualquer coisa</em></li>
-          <li><em>Trabalhar em equipe</em></li>
-          <li><em>Cozinhar</em></li>
-          <li><em>Falar em público</em></li>        
-        </ul>
+    strong {
+      color: #03045e;
+    }
 
-        <p>Esse link leva para o blog da minha esposa onde ela fala sobre deselvomvimento humano:
-          <br><a href="https://blog.conheceredespertar.com.br" target="_blank">Blog - Conhecer e Despertar</a>
-        </p>
+    em {
+      color: #03045e;
+    }
 
-        <br>
-        
-        <a href="#foto-flavio">Ir para a foto</a>
-        
-    </body>
+    .list-item-1 {
+      font-family: Roboto;
+      font-size: 1.3em;
+    }
+
+    .list-item-2 {
+      font-family: Roboto;
+      font-size: 1.5em;
+    }
+    .indice {
+      font-family: Roboto;
+      font-weight: 700;
+      color: #00b4d8;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Flávio Anselmo dos Santos Pires</h1>
+
+  <ul class="indice">
+    <li><a href="#habilidades-possuo">Habilidades que possuo</a></li>
+    <li><a href="#habilidades-orgulho">Habilidades que me orgulho</a></li>
+  </ul>
+
+  <img id="foto-flavio" src="images/flavio-pires.jpg" alt="Foto de identificação do portifólio do Flávio Pires"
+    width="500px">
+  <p>
+    Olá, sou o <strong>Flávio Pires</strong>, tenho 44 anos, casado com a Roberta Melo, pai de quatro filhas.
+    <br>Sou brasileiro, moro na cidade de Vespasiano em Minas Gerais. Hoje sou estudante de<br>
+    desenvolvimento web na <a href="https://betrybe.com" target="_blank"><em>Trybe</em></a>.
+  </p>
+
+  <h2 id="habilidades-possuo">Habilidades que possuo:</h2>
+
+  <ul class="list-item-1">
+    <li>Unix</li>
+    <li>Bash</li>
+    <li>ZSH</li>
+    <li>Git e Github</li>
+    <li>Internet</li>
+    <li>HTML</li>
+    <li><strong>Corel Draw</strong></li>
+    <li><strong>Photoshop</strong></li>
+    <li>Indesign</li>
+    <li>Fazer palestras</li>
+    <li>Tocar violão</li>
+
+  </ul>
+
+  <h2 id="habilidades-orgulho">Habilidades que mais tenho orgulho:</h2>
+
+  <ul class="list-item-2">
+    <li><em>Relacionamento interpessoal</em></li>
+    <li><em>Facilidade em aprender qualquer coisa</em></li>
+    <li><em>Trabalhar em equipe</em></li>
+    <li><em>Cozinhar</em></li>
+    <li><em>Falar em público</em></li>
+  </ul>
+
+  <p>Esse link leva para o blog da minha esposa onde ela fala sobre deselvomvimento humano:
+    <br><a href="https://blog.conheceredespertar.com.br" target="_blank">Blog - Conhecer e Despertar</a>
+  </p>
+
+  <br>
+
+  <p><a href="#foto-flavio">Ir para a foto</a></p>
+
+</body>
+
 </html>
